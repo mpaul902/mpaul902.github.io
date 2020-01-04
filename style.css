@@ -1,8 +1,12 @@
+html{
+    background: rgba(255, 255, 255, 1);
+}
 body{
     font-size: 50px;
+    
 }
 .header{
-    color: darkcyan;
+    color: white;
     text-align: left;
     letter-spacing: 10px;
     font-family: "Verdana", Arial, sans-serif;
