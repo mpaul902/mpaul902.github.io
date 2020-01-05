@@ -1,18 +1,32 @@
 html{
-    background: rgba(255, 255, 255, 1);
+    background: rgba(0, 0, 0, .1);
 }
-body{
-    font-size: 50px;
-    
+body {
+    background: rgba(0, 0, 0, .2);
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
+
 .header{
-    color: white;
     text-align: left;
     letter-spacing: 10px;
-    font-family: "Verdana", Arial, sans-serif;
     font-size: 20px;
     text-transform: uppercase;
+    padding: 10%;
+    text-align: left;
 }
-.sekected{
+.selected{
     color: white;
+}
+.padding{
+    padding: 10%;
+}
+.primary {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.secondary{
+    font-family: 'Roboto', sans-serif;
 }
