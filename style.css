@@ -2,7 +2,10 @@ html{
     background: rgba(0, 0, 0, .1);
 }
 body {
-    background: rgba(0, 0, 0, .2);
+    margin-left: 350px;
+    background: rgba(240, 240, 240, 1);
+}
+.background{
     background-image: url("img_tree.png");
     background-repeat: no-repeat;
     background-position: right top;
@@ -10,23 +13,74 @@ body {
 }
 
 .header{
-    text-align: left;
+    align-self: left;
+    text-align: center;
     letter-spacing: 10px;
     font-size: 20px;
     text-transform: uppercase;
-    padding: 10%;
-    text-align: left;
 }
-.selected{
-    color: white;
+.nav-link{
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 .padding{
-    padding: 10%;
+    padding-top: 10%;
+    
 }
 .primary {
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: rgba(0, 0, 0, .6);
 }
 .secondary{
     font-family: 'Roboto', sans-serif;
+    color: rgba(218,165,32.6);
+}
+.small{
+    font-size: 15px
+}
+.medium{
+    font-size: 20px;
+}
+.large{
+    font-size: 30px;
+}
+
+
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 350px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgba(240 , 240, 240, 1); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: rgba(0, 0, 0, .6);
+}
+
+
+/* Style page content */
+.main {
+  margin-left: 10px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
