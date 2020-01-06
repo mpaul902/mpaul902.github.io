@@ -1,5 +1,5 @@
 html{
-    background: rgba(0, 0, 0, .1);
+    background: rgba(240, 240, 240, 1);
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -19,7 +19,7 @@ h2{
     align-self: left;
     text-align: center;
     letter-spacing: 10px;
-    padding: 10%;
+
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -43,6 +43,9 @@ h2{
 }
 .small{
     font-size: 10px
+}
+.mediumsmall{
+    font-size: 15px;
 }
 .medium{
     font-size: 20px;
