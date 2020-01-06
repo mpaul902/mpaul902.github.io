@@ -5,31 +5,129 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!--linking bootstrap-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <!--linking style.css-->
+        <!--linking style.css and javascript-->
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+        
+        <!-- jQuery CDN - Slim version (=without AJAX) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Popper.JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+         <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        
         <!--linking fonts-->
         <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap" rel="stylesheet">
         <!--title-->
         <title>Matt Paul Designs</title>
     </head>
     <body>
-    <div style="padding-top: 30px",>
-			<div class="row">
-  				<div class="sidenav">
-					<h1 class="header primary padding">Matt Paul Designs</h1>
-                        <a class="nav-link secondary" href="portfolio">Portfolio</a>
-                        <a class="nav-link secondary" href="#">Services</a>
-                        <a class="nav-link secondary" href="#">Clients</a>
-				</div>
-				
-				<div class="container">
-                    <h1 class="header primary padding">Coming Soon...</h1>
-                    <p>hello</p>
-		
-				</div>
-			</div>
+        
+        <div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <div class="header primary">
+            <h3 href="index" class="header primary">Matt paul designs</h3>
         </div>
 
+        <ul class="list-unstyled components sidestyle secondary">
+
+            <li class="medium">
+                <a href="#">Shop</a>
+            </li>
+            <li class="medium">
+                <a href="#gallerySubmenu" data-toggle="collapse" aria-expanded="false" class="">Gallery</a>
+                <ul class="collapse list-unstyled small" id="gallerySubmenu">
+                    <li>
+                        <a href="#">Traditional</a>
+                    </li>
+                    <li>
+                        <a href="#">Digital</a>
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <li class="small">
+                <a href="#aboutSubmenu" data-toggle="collapse" aria-expanded="false">About</a>
+                <ul class="collapse list-unstyled" id="aboutSubmenu">
+                    <li>
+                        <a href="#">Bio</a>
+                    </li>
+                    <li>
+                        <a href="#">...</a>
+                    </li>
+                </ul>
+            </li>
     
+            <li class="small">
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+
+    </nav>
+    <!-- Page Content -->
+    <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn">
+                        <i class="fas fa-align-left"></i>
+                        <img src="images/sidebutton.png" alt="Button" style="width:20px;height:20px;">
+                        
+                    </button>
+                    <!--<button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                        </ul>
+                    </div>-->
+                </div>
+            </nav>
+
+            <h2 class="primary large">Coming Soon...</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+           
+        </div>
+</div>
+        <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+
     </body>
+
 </html>
