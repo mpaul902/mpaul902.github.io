@@ -90,10 +90,10 @@
         });
     </script>
     <script>
-        $.get("sidebar.html", function(data){
-        $("#side-placeholder").replaceWith(data);
-    });
-    </script>
+        $(function(){
+            $("#side-placeholder").load("sidebar.html");
+        });
+        </script>
     <script>
         $.get("topbasic", function(data){
         $("#topbasic-placeholder").replaceWith(data);
