@@ -1,1 +1,1 @@
-# mpaul902.github.io
+# gallery project (wip)
