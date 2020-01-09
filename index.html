@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <div id="head-placeholder"></div>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!--linking bootstrap-->
@@ -11,7 +12,6 @@
         <script type="text/javascript" src="js/script.js"></script>
         <!-- Scrollbar Custom CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-        
         <!-- jQuery CDN - Slim version (=without AJAX) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <!-- Popper.JS -->
@@ -20,7 +20,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
          <!-- jQuery Custom Scroller CDN -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-        
+        <!--icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--linking fonts-->
         <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap" rel="stylesheet">
         <!--title-->
@@ -40,30 +41,9 @@
                 <div class="container-fluid">
 
                     <button type="button" id="sidebarCollapse" class="btn">
-                        <i class="fas fa-align-left"></i>
                         <img src="images/sidebutton.png" alt="Button" style="width:20px;height:20px;">
                     </button>
-                    <h3 href="index" class="header primary vertical-right-center">Matt paul designs</h3>
-                    <!--<button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                        </ul>
-                    </div>-->
+                    <h3 class="header primary vertical-right-center mediumsmall">Matt paul designs</h3>
                 </div>
             </nav>
 
@@ -94,12 +74,7 @@
             $("#side-placeholder").load("sidebar.html");
         });
         </script>
-    <script>
-        $.get("topbasic", function(data){
-        $("#topbasic-placeholder").replaceWith(data);
-    });
-    </script>
-
+   
     </body>
 
 </html>
