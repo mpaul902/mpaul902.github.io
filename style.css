@@ -31,7 +31,9 @@ h2{
 }
 .padding{
     padding-top: 10%;
-    
+}
+.nopad{
+    padding: 0px;
 }
 .vertical-right-center {
     margin: 0;
@@ -88,8 +90,8 @@ a:focus {
 
 .navbar-btn {
     box-shadow:none;
-    outline: none !important;
-    border: none;
+    outline: !important;
+    border: 5px solid black;
 }
 
 .line {
