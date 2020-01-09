@@ -33,6 +33,14 @@ h2{
     padding-top: 10%;
     
 }
+.vertical-right-center {
+    margin: 0;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 .primary {
     font-family: 'Poppins', sans-serif;
     color: rgba(0, 0, 0, .6);
