@@ -350,3 +350,19 @@ a.article:hover {
   }
 }
 
+
+
+
+
+
+.carousel{
+    align-content: center;
+    width: 100%;
+    height: 1000px;
+        
+}
+#homeslide img {
+max-height: 1000px;
+object-fit: cover;
+
+}
