@@ -26,6 +26,27 @@ h2{
     font-size: 20px;
     text-transform: uppercase;
 }
+.row{
+    width: 100%;
+    transform: translateX(20px);
+}
+#banner .banner{
+    
+    text-align: right;
+    letter-spacing: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+#banner .left{
+    
+    width: 10%;
+}
+#banner .right{
+    
+    width: 90%;
+    
+}
 .sidestyle{
     text-align: center;
     letter-spacing: 10px;
@@ -38,9 +59,7 @@ h2{
 .nopad{
     padding: 0px;
 }
-.vertical-right-center {
-    margin: 0;
-}
+
 .primary {
     font-family: 'Poppins', sans-serif;
     color: rgba(0, 0, 0, .6);
@@ -277,7 +296,7 @@ a.article:hover {
 
 
 
-.row {
+#gallery.row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
@@ -286,21 +305,21 @@ a.article:hover {
 }
 
 /* Create four equal columns that sits next to each other */
-.column {
+#gallery .column {
   -ms-flex: 20%; /* IE10 */
   flex: 20%;
   max-width: 20%;
   padding: 0 4px;
 }
 
-.column img {
+#gallery .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
 }
 /* Responsive layout */
 @media screen and (max-width: 1600px) {
-  .column {
+  #gallery .column {
     -ms-flex: 25%;
     flex: 25%;
     max-width: 25%;
@@ -308,14 +327,14 @@ a.article:hover {
 }
 
 @media screen and (max-width: 1280px) {
-  .column {
+  #gallery .column {
     -ms-flex: 33%;
     flex: 33%;
     max-width: 33%;
   }
 }
 @media screen and (max-width: 960px) {
-  .column {
+  #gallery .column {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
@@ -324,7 +343,7 @@ a.article:hover {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 640px) {
-  .column {
+  #gallery .column {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
