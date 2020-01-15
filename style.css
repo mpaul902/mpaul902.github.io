@@ -2,20 +2,14 @@
   box-sizing: border-box;
 }
 html{
-    background: rgba(240, 240, 240, 1);
+    background: rgba(230, 230, 230, 1);
 }
 body {
     font-family: 'Poppins', sans-serif;
-    background: rgba(240, 240, 240, 1);
+    background: rgba(200, 240, 240, 1);
 }
 h2{
     padding: 2%;
-}
-.background{
-    background-image: url("img_tree.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
 }
 
 .header{
@@ -49,6 +43,7 @@ h2{
 }
 .sidestyle{
     text-align: center;
+    margin-left: 10px;
     letter-spacing: 10px;
     font-size: 15px;
     text-transform: uppercase;
@@ -154,6 +149,7 @@ a:focus {
 }
 
 #sidebar ul.components {
+    text-align: center;
     padding: 20px 0;
     border-bottom: 1px solid rgba(240, 240, 240, 1);
 }
@@ -266,7 +262,13 @@ a.article:hover {
 
 
 
-
+.logo{
+    display: block;
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
 
 
