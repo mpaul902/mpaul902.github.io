@@ -29,13 +29,13 @@
     </head>
     <body>
         
-    <div class="wrapper">
+        <div class="wrapper">
     <!-- Sidebar -->
-    <div id="side-placeholder"></div>
+    
+            <div id="side-placeholder"></div>
     <!-- Page Content -->
-    <div id="content">
-
-        <nav id="banner" class="navbar navbar-expand-lg">
+            <div id="heading">
+                <nav id="banner" class="navbar">
             <div class="row">
                 <div class="column left">
                     <button type="button" id="sidebarCollapse" class="btn nopad">
@@ -46,7 +46,14 @@
                     Matt paul designs
                 </div>
             </div>
+            
         </nav>
+            </div>
+        <div id="content">
+
+        
+        
+        
         <div id="carousel-2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
             <ol class="carousel-indicators">
                 <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
@@ -106,6 +113,8 @@
             $('#sidebarCollapse').on('click', function () {
                 $('#sidebar, #content').toggleClass('active');
                 $('.collapse.in').toggleClass('in');
+                $('ul').toggleClass('toggle');
+
                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
             });
         });
