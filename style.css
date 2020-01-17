@@ -269,7 +269,12 @@ a.article:hover {
     MEDIAQUERIES
 ----------------------------------------------------- */
 
-
+.parent{
+    display: inline;
+}
+.sub{
+   display: none;
+}
 @media screen and (max-width: 800px) {
     #sidebar {
 
@@ -280,7 +285,6 @@ a.article:hover {
     .logo{
         
         width:35%;
-        position: sticky;
     }
     #sidebar.active {
         margin: 0;
@@ -299,7 +303,7 @@ a.article:hover {
     
     #content.active {
         width: 100%;
-        margin-top: calc(40% + 250px);
+        margin-top: calc(40% + 300px);
     
     }
 
@@ -333,9 +337,16 @@ a.article:hover {
     visibility: hidden;
     border-bottom: 0;
 }
+    
+    .parent{
+        display:none;
+    
+    }
+    .sub{
+        
+        display: inline;
+    }
 }
-
-
 
 
 
