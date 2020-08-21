@@ -11,7 +11,12 @@ body {
 h2{
     padding: 2%;
 }
-
+.center {
+  margin: auto;
+  align-self: center;
+    display:inline-block;
+  padding: 10px;
+}
 .header{
     align-self: left;
     text-align: center;
@@ -424,7 +429,8 @@ anchors are inline so you need ot make them block to go full width
 
 
 .popup{
-    width: 100%;
+    width: auto;
+    height: auto; 
 }
 .modalDialog {
         position: fixed;
