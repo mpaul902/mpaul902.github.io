@@ -15,6 +15,10 @@ h2{
     display: block;
     align-self: center;
 }
+img {
+    pointer-events: none;
+}
+
 .header{
     align-self: left;
     text-align: center;
