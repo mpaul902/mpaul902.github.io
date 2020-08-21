@@ -427,7 +427,6 @@ anchors are inline so you need ot make them block to go full width
 }
 
 
-
 .popup{
     width: auto;
     height: auto; 
@@ -516,4 +515,13 @@ anchors are inline so you need ot make them block to go full width
     flex: 100%;
     max-width: 100%;
   }
+}
+
+
+
+.redbubble{
+    display: block;
+    width:10%;
+    margin-left: 40px;
+    margin-right: ;
 }

@@ -24,7 +24,7 @@
         <!--linking fonts-->
         <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap" rel="stylesheet">
         <!--title-->
-        <title>Shop</title>
+        <title>Bio</title>
         <link rel="icon" type="image/png" href="images/logo.png"/>
     </head>
     <body oncopy="return false" oncut="return false" onpaste="return false">
@@ -33,32 +33,40 @@
     <!-- Sidebar -->
         <div id="side-placeholder">
         </div>
+        <div id="heading">
+                <nav id="banner" class="navbar">
+            <div class="row">
+                <div class="column left">
+                    <button type="button" id="sidebarCollapse" class="btn nopad">
+                        <img class="button" src="images/sidebutton.png" alt="Button" style="width:20px;height:20px;">
+                    </button>
+                </div>
+                <div class="column right primary banner">
+                    Matt paul designs
+                </div>
+            </div>
+            
+        </nav>
+            </div>
     <!-- Page Content -->
     <div id="content">
         
-        <nav id="banner" class="navbar navbar-expand-lg">
-                <div class="row">
-                    <div class="column left">
-                        <button type="button" id="sidebarCollapse" class="btn nopad">
-                            <img src="images/sidebutton.png" alt="Button" style="width:20px;height:20px;">
-                        </button>
-                    </div>
-                    <div class="column right banner primary">
-                        Matt paul designs
-                    </div>
-                </div>
-        </nav>
-        <div class="secondary header large" style="text-align: center">
+    
+        <div class="secondary header large" style="text-align: center;padding-left: 15px">
             Shop         
+             
         </div>
-        
         <div class="line"></div>
-        <div class="primary large" style="padding-left: 50px">RedBubble</div>
-        <div><script type="text/javascript" src="https://www.redbubble.com/assets/external_portfolio.js" style="padding-left: 200px"></script>
-        <script id="rb-xzfcxvzx" type="text/javascript">new RBExternalPortfolio('www.redbubble.com', 'mattpauldesigns', 0, 1).renderIframe();</script>
-        </div>
         
+        <div class="fa">
+        <a href="https://www.redbubble.com/people/mattpauldesigns/shop" class="primary darker large">RedBubble</a>
         </div>
+        <a href="https://www.redbubble.com/people/mattpauldesigns/shop">
+            <img class="redbubble" src="images/redbubble.png" alt="Logo">
+        </a>
+        
+
+    </div>
     </div>
         
         <script type="text/javascript">
@@ -70,10 +78,12 @@
             $('#sidebarCollapse').on('click', function () {
                 $('#sidebar, #content').toggleClass('active');
                 $('.collapse.in').toggleClass('in');
+                $('ul').toggleClass('toggle');
+
                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
             });
         });
-        </script>
+    </script>
         <script>
             $(function(){
                 $("#side-placeholder").load("sidebar.html");
