@@ -24,7 +24,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--linking fonts-->
         <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap" rel="stylesheet">
-    
+        
+
         <!--title-->
         <title>Matt Paul Designs</title>
         <link rel="icon" type="image/png" href="images/logo.png"/>
@@ -56,16 +57,11 @@
         
         
         
-        <div id="carousel-2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-2" data-slide-to="0" class="active ind"></li>
-                <li data-target="#carousel-2" data-slide-to="1"></li>
-                <li data-target="#carousel-2" data-slide-to="2"></li>
-            </ol>
+        <div id="carousel" class="carousel-fade carousel slide" data-ride="carousel" data-interval="1000">
             <div onmousedown="return false" class="carousel-inner" role="listbox">
 
                 <div class="carousel-item active">
-                    <a href="https://bootstrapcreative.com/">
+                    <a href="https://www.redbubble.com/people/mattpauldesigns/shop">
 
                      <img src="/images/carousel/1.png" alt="responsive image" class="d-block img-fluid">
 
@@ -75,7 +71,7 @@
 
 
                 <div class="carousel-item">
-                    <a href="https://bootstrapcreative.com/">
+                    <a href="https://www.instagram.com/matt.paul.designs/">
                      <img src="/images/carousel/2.png" alt="responsive image" class="d-block img-fluid">
 
 
@@ -83,7 +79,7 @@
                 </div>
                 <!-- /.carousel-item -->
                 <div class="carousel-item">
-                    <a href="https://bootstrapcreative.com/">
+                    <a href="">
 
                      <img src="/images/carousel/3.png" alt="responsive image" class="d-block img-fluid">
                     </a>
@@ -91,11 +87,11 @@
                 <!-- /.carousel-item -->
             </div>
             <!-- /.carousel-inner -->
-            <a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
@@ -106,25 +102,25 @@
 
     </div>
     </div>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#sidebar").mCustomScrollbar({
-                theme: "minimal"
-            });
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
 
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar, #content').toggleClass('active');
-                $('.collapse.in').toggleClass('in');
-                $('ul').toggleClass('toggle');
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar, #content').toggleClass('active');
+                    $('.collapse.in').toggleClass('in');
+                    $('ul').toggleClass('toggle');
 
-                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
             });
-        });
-    </script>
-    <script>
-        $(function(){
-            $("#side-placeholder").load("sidebar.html");
-        });
+        </script>
+        <script>
+            $(function(){
+                $("#side-placeholder").load("sidebar.html");
+            });
         </script>
    
     </body>

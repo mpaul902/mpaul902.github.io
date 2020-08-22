@@ -14,11 +14,8 @@ h2{
 .center {
     display: block;
     align-self: center;
+    
 }
-img {
-    pointer-events: none;
-}
-
 .header{
     align-self: left;
     text-align: center;
@@ -46,7 +43,7 @@ img {
 #banner .right{
     
     width: 90%;
-    text-align: center;
+    text-align: right;
     
 }
 .sidestyle{
@@ -523,7 +520,7 @@ anchors are inline so you need ot make them block to go full width
 
 .redbubble{
     display:inherit;
-    width:205px;
+    width:255px;
     margin-left: ;
     margin-right: ;
 }
